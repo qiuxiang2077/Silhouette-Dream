@@ -109,6 +109,22 @@
 - **沟通工具**：微信群（日常）+ 飞书文档（正式文档）
 - **进度同步**：每3-4天更新进度，遇到问题尽早沟通
 
+### GitHub版本管理流程
+- **仓库结构**：主分支`main`用于稳定版本，开发分支`develop`用于日常开发，功能分支`feature/*`用于新功能开发
+- **提交规范**：遵循Conventional Commits格式（feat:, fix:, chore:, docs:, style:, refactor:, test:）
+- **分支策略**：
+  - `feature/`：新功能开发，从`develop`分支创建，完成后合并回`develop`
+  - `bugfix/`：Bug修复，从`develop`分支创建
+  - `hotfix/`：紧急修复，从`main`分支创建，修复后同时合并到`main`和`develop`
+- **Pull Request流程**：
+  1. 开发者在本地完成功能开发并推送到远程分支
+  2. 创建Pull Request到`develop`分支
+  3. 至少需要一名团队成员代码审查通过
+  4. 通过CI/CD流水线测试
+  5. 合并到目标分支
+- **标签管理**：使用语义化版本标签（v1.0.0）标记发布版本
+- **GitHub Actions**：配置自动化测试、构建和部署流水线
+
 ## ⚠️ 风险评估与应对
 
 | 风险 | 概率 | 影响 | 应对策略 |
