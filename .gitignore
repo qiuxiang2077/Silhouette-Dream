@@ -26,3 +26,12 @@ godot-mcp/
 Thumbs.db
 ehthumbs.db
 Desktop.ini
+
+# OpenSpec 临时文件（不需要提交）
+.openspec/
+*.openspec.lock
+openspec/.workspace/
+openspec/reports/temp/
+
+# OpenSpec 活跃变更的工作状态（可选：如果想忽略进行中的工作）
+# openspec/changes/*/.openspec.local.yaml
