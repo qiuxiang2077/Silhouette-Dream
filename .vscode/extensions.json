@@ -1,0 +1,29 @@
+{
+  "recommendations": [
+    // Godot开发核心
+    "geequlim.godot-tools",
+
+    // Markdown文档工作流
+    "yzhang.markdown-all-in-one",
+    "shd101wyy.markdown-preview-enhanced",
+    "DavidAnson.vscode-markdownlint",
+    "redhat.vscode-yaml",
+
+    // 代码效率
+    "usernamehw.errorlens",
+    "gruntfuggly.todo-tree",
+    "aaron-bond.better-comments",
+    "oderwat.indent-rainbow",
+    "streetsidesoftware.code-spell-checker",
+
+    // 项目/版本控制
+    "eamodio.gitlens",
+    "alefragnani.project-manager",
+    "christian-kohler.path-intellisense",
+
+    // 界面美化
+    "PKief.material-icon-theme",
+    "zhuangtongfa.material-theme"
+  ],
+  "unwantedRecommendations": []
+}
